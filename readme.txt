@@ -20,14 +20,6 @@
 │   • Target offline within 60 seconds                     │
 └─────────────────────────────────────────────────────────────┘
 
-sudo mkdir -p /media/kali/1TB
-sudo mount /dev/sdb1 /media/kali/1TB
-
-
-dione.batstate-u.edu.ph
-
-
-
 
 
 Make the script executable:
@@ -38,7 +30,6 @@ Install dependencies (if not already):
 sudo apt update
 sudo apt install python3-pip hping3 -y
 sudo pip3 install scapy requests h2 termcolor cryptography dnspython
-
 
 
 sudo python3 BlackIce_Saphyra_Ultimate.py
