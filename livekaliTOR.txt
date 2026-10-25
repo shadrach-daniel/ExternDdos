@@ -1,0 +1,2 @@
+# On Kali Live with TOR running:
+sudo -E ALL_PROXY=socks5://127.0.0.1:9050 python3 BlackIce_Saphyra_Ultimate.py
